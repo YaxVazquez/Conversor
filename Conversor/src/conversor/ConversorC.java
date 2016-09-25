@@ -18,20 +18,12 @@ import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 import javax.swing.border.EmptyBorder;
 
-
-public class ConversorC extends JFrame{
-	
-	
+public class ConversorC extends JFrame{	
 	JTextField pantalla;
-
 	double resultado;
-
 	String operacion;
-
 	JPanel panelNumeros, panelOperaciones;
-
 	boolean nuevaOperacion = true;
-
 	ConversorC()
 	{
 		super();
